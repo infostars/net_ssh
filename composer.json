@@ -1,0 +1,24 @@
+{
+  "name": "infostars/net-ssh",
+  "description": "SSH client for PHP and all Tibet monks.",
+  "type": "library",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gregory Ostrovsky",
+      "email": "greevex@gmail.com"
+    },
+    {
+      "name": "Dmitry Emelyanov",
+      "email": "gilberg.vrn@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "mpcmf\\system\\": "src/"
+    }
+  }
+}
